@@ -6,20 +6,12 @@ class PagesController extends Controller
 {
     public function index()
     {
-        $title = 'Welcome to Laravel!';
+        $title = 'A Work in Progress!';
         return view('pages.index')->with('title', $title);
     }
-    public function about()
+
+    public function schools()
     {
-        $title = 'The About Page';
-        return view('pages.about')->with('title', $title);
-    }
-    public function services()
-    {
-        $data = array(
-            'title' => 'Services Page',
-            'services' => ['Web Design', 'Programming', 'SEO']
-        );
-        return view('pages.services')->with($data);
+        return view('pages.schools');
     }
 }

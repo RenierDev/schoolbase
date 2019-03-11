@@ -49148,8 +49148,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/renier/code/lsapp/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/renier/code/lsapp/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/renier/code/schoolbase/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/renier/code/schoolbase/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

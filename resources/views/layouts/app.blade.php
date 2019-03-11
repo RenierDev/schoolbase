@@ -9,7 +9,7 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -21,12 +21,13 @@
 <body>
     <div id="app">
         @include('inc.nav')
-        <div class="container">    
+        <div class="container content-main">    
             @include('inc.messages')
             @yield('content')
         </div>
     </div>
     
     <script src="{{ asset('js/app.js') }}" defer></script>
+    
 </body>
 </html>
